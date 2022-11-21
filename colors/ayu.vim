@@ -11,7 +11,8 @@ let g:colors_name = "ayu"
 
 " Palettes:"{{{
 " ----------------------------------------------------------------------------
-
+"  special:light changed colour from E6B673 to FFAA33 to make defines look
+"  nicer
 let s:palette = {}
 
 let s:palette.bg        = {'dark': "#0F1419",  'light': "#FAFAFA",  'mirage': "#212733"}
@@ -24,7 +25,7 @@ let s:palette.tag       = {'dark': "#36A3D9",  'light': "#36A3D9",  'mirage': "#
 let s:palette.regexp    = {'dark': "#95E6CB",  'light': "#4CBF99",  'mirage': "#95E6CB"}
 let s:palette.string    = {'dark': "#B8CC52",  'light': "#86B300",  'mirage': "#BBE67E"}
 let s:palette.function  = {'dark': "#FFB454",  'light': "#F29718",  'mirage': "#FFD57F"}
-let s:palette.special   = {'dark': "#E6B673",  'light': "#E6B673",  'mirage': "#FFC44C"}
+let s:palette.special   = {'dark': "#E6B673",  'light': "#FFAA33",  'mirage': "#FFC44C"}
 let s:palette.keyword   = {'dark': "#FF7733",  'light': "#FF7733",  'mirage': "#FFAE57"}
 
 let s:palette.error     = {'dark': "#FF3333",  'light': "#FF3333",  'mirage': "#FF3333"}
